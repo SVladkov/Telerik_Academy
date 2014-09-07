@@ -18,8 +18,72 @@ namespace Bookstore.Importer
         {
             db = new BookstoreDbContext();
 
+            //Import();
+            Search();
+        }
+
+        public static void Search()
+        {
+            var xmlQueries = XElement.Load(@"..\..\..\reviews-queries.xml").Elements();
+            var result = new XElement("search-results");
+
+            foreach (var xmlQuery in xmlQueries)
+            {
+                var queryInReviews = db.Reviews.AsQueryable();
+
+                if (xmlQuery.Attribute("type").Value == "by-period")
+                {
+                    var startDate = DateTime.Parse(xmlQuery.Element("start-date").Value);
+                    var endDate = DateTime.Parse(xmlQuery.Element("end-date").Value);
+
+                    queryInReviews = queryInReviews.Where(r => r.CreatedOn >= startDate && r.CreatedOn <= endDate);
+                }
+
+                if (xmlQuery.Attribute("type").Value == "by-author")
+                {
+                    var authorName = xmlQuery.Element("author-name").Value;
+
+                    queryInReviews = queryInReviews.Where(r => r.Author.Name == authorName);
+                }
+
+                var resultSet = queryInReviews
+                    .OrderBy(r => r.CreatedOn)
+                    .ThenBy(r => r.Content)
+                    .Select(r => new
+                    {
+                        Date = r.CreatedOn,
+                        Content = r.Content,
+                        Book = new
+                        {
+                            Title = r.Book.Title,
+                            Authors = r.Book.Authors
+                                .OrderBy(a => a.Name)
+                                .Select(a => a.Name),
+                            ISBN = r.Book.ISBN,
+                            URL = r.Book.WebSite
+                        }
+                    }).ToList();
+
+                var xmlResultSet = new XElement("result-set");
+                foreach (var reviewInResult in resultSet)
+                {
+                    var xmlReview = new XElement("review");
+                    xmlReview.Add(new XElement("date", reviewInResult.Date.ToString("d-MM-yyyy")));
+                    xmlReview.Add(new XElement("content", reviewInResult.Content));
+
+                    xmlResultSet.Add(xmlReview);
+                }
+
+                result.Add(xmlResultSet);
+            }
+
+            result.Save(@"..\..\..\reviews-search-results.xml");
+        }
+
+        public static void Import()
+        {
             var xmlBooks = XElement.Load(@"..\..\..\complex-books.xml").Elements();
-            
+
             foreach (var xmlBook in xmlBooks)
             {
                 var currentBook = new Book();
@@ -55,7 +119,7 @@ namespace Bookstore.Importer
                     foreach (var xmlAuthor in xmlAuthors.Elements("author"))
                     {
                         var authorName = xmlAuthor.Value;
-                        
+
                         currentBook.Authors.Add(GetAuthor(authorName));
                     }
                 }
