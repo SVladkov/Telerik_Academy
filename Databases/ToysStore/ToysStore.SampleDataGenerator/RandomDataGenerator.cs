@@ -8,6 +8,8 @@ namespace ToysStore.SampleDataGenerator
 {
     internal class RandomDataGenerator : IRandomDataGenerator
     {
+        private const string Letters = "ABCDEFGHIJKLMNOPQRSUVWXYZabcdefghijklmonpqrstuvwhyz";
+
         private static IRandomDataGenerator randomDataGenerator;
 
         private Random random;
@@ -32,12 +34,19 @@ namespace ToysStore.SampleDataGenerator
 
         public int GetRandomNumber(int min, int max)
         {
-            throw new NotImplementedException();
+            return this.random.Next(min, max + 1);
         }
 
         public string GetRandomString(int length)
         {
-            throw new NotImplementedException();
+            var result = new char[length];
+
+            for (int i = 0; i < length; i++)
+            {
+                result[i] = Letters[this.GetRandomNumber(0, Letters.Length - 1)]; 
+            }
+
+            return new string(result);
         }
 
         public string GetRandomStringWithRandomLength(int min, int max)
