@@ -11,6 +11,8 @@ namespace Bookstore.Models
     {
         private ICollection<Review> reviews;
 
+        private ICollection<Book> books;
+
         public Author()
         { 
             this.reviews = new HashSet<Review>();
@@ -19,6 +21,7 @@ namespace Bookstore.Models
         public int Id { get; set; }
 
         //[Index(IsUnique = true)]
+        [MaxLength(50)]
         [Required]
         public string Name { get; set; }
 
@@ -26,6 +29,12 @@ namespace Bookstore.Models
         {
             get { return this.reviews; }
             set { this.reviews = value; }
+        }
+
+        public virtual ICollection<Book> Books
+        {
+            get { return this.books; }
+            set { this.books = value; }
         }
     }
 }

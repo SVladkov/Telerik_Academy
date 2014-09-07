@@ -1,0 +1,14 @@
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\Bookstore.Importer.exe.config
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\obj\Debug\Bookstore.Importer.csprojResolveAssemblyReference.cache
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\Bookstore.Importer.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\Bookstore.Importer.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\BookStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\Bookstore.Models.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\EntityFramework.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\BookStore.Data.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\Bookstore.Models.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\EntityFramework.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\obj\Debug\Bookstore.Importer.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\Bookstore.Importer\obj\Debug\Bookstore.Importer.pdb

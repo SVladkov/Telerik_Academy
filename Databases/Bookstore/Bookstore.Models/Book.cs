@@ -12,9 +12,12 @@ namespace Bookstore.Models
     {
         private ICollection<Review> reviews;
 
+        private ICollection<Author> authors;
+
         public Book()
         {
             this.reviews = new HashSet<Review>();
+            this.authors = new HashSet<Author>();
         }
 
         public int Id { get; set; }
@@ -35,6 +38,12 @@ namespace Bookstore.Models
         {
             get { return this.reviews; }
             set { this.reviews = value; }
+        }
+
+        public virtual ICollection<Author> Authors
+        {
+            get { return this.authors; }
+            set { this.authors = value; }
         }
     }
 }

@@ -1,0 +1,12 @@
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\obj\Debug\BookStore.Data.csprojResolveAssemblyReference.cache
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\BookStore.Data.dll.config
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\BookStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\BookStore.Data.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\Bookstore.Models.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\EntityFramework.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\Bookstore.Models.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\EntityFramework.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\obj\Debug\BookStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\Bookstore\BookStore.Data\obj\Debug\BookStore.Data.pdb
