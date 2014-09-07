@@ -1,0 +1,25 @@
+USE [ToysStore]
+GO
+
+#1.	Get all toys’s name and price having type of “puzzle” and price above $10.00 ordering them by price
+SELECT Name, Price
+FROM Toys
+WHERE Type = 'puzzle' AND Price > 10
+ORDER BY Price
+
+#2.	Get all manufacturers’ name and how many toys they have in the age range of 5 to 10 years, inclusive
+SELECT Manufacturers.Name, 
+(SELECT COUNT(*)
+FROM Toys
+INNER JOIN AgeRanges
+	ON Toys.AgeRangeId = AgeRanges.Id
+WHERE AgeRanges.MinimumAge >= 5 AND AgeRanges.MaximumAge <= 10  AND Manufacturers.Id = Toys.ManufacturerId) AS [Count]
+FROM Manufacturers
+
+#3.	Get all toys’ name, price and color from category “boys” 
+SELECT Toys.Name, Toys.Price, Toys.Color
+FROM Toys
+INNER JOIN ToysCategories
+	ON Toys.Id = ToysCategories.ToyId
+INNER JOIN Categories
+	ON Categories.Id = ToysCategories.CategoryId
