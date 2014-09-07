@@ -1,0 +1,10 @@
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\ToysStore.Data.dll.config
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\ToysStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\ToysStore.Data.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\EntityFramework.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\EntityFramework.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\obj\Debug\ToysStore.Data.csprojResolveAssemblyReference.cache
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\obj\Debug\ToysStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.Data\obj\Debug\ToysStore.Data.pdb

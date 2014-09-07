@@ -1,0 +1,12 @@
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\obj\Debug\ToysStore.SampleDataGenerator.csprojResolveAssemblyReference.cache
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\ToysStore.SampleDataGenerator.exe.config
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\ToysStore.SampleDataGenerator.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\ToysStore.SampleDataGenerator.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\EntityFramework.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\ToysStore.Data.dll
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\ToysStore.Data.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\EntityFramework.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\obj\Debug\ToysStore.SampleDataGenerator.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\Databases\ToysStore\ToysStore.SampleDataGenerator\obj\Debug\ToysStore.SampleDataGenerator.pdb

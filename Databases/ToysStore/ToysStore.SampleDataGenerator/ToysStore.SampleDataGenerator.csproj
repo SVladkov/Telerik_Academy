@@ -48,12 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgeRangeDataGenerator.cs" />
     <Compile Include="CategoryDataGenerator.cs" />
+    <Compile Include="DataGenerator.cs" />
     <Compile Include="IDataGenerator.cs" />
     <Compile Include="IRandomDataGenerator.cs" />
+    <Compile Include="ManufacturerDataGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomDataGenerator.cs" />
+    <Compile Include="ToyDataGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

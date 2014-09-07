@@ -51,7 +51,7 @@ namespace ToysStore.SampleDataGenerator
 
         public string GetRandomStringWithRandomLength(int min, int max)
         {
-            throw new NotImplementedException();
+            return this.GetRandomString(this.GetRandomNumber(min, max));
         }
     }
 }
