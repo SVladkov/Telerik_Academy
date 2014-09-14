@@ -1,0 +1,6 @@
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\bin\Debug\Businessman.exe.config
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\obj\Debug\Businessman.csprojResolveAssemblyReference.cache
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\bin\Debug\Businessman.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\bin\Debug\Businessman.pdb
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\obj\Debug\Businessman.exe
+D:\University\Telerik\TelerikRepository\TelerikAcademy\DSA\ExamPreparation\Businessman\obj\Debug\Businessman.pdb

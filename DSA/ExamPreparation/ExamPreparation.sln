@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DLabyrinth", "3DLabyrinth\3DLabyrinth.csproj", "{C70E477A-7219-409C-A41F-B9831B279627}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.3DLabyrinth", "3DLabyrinth\02.3DLabyrinth.csproj", "{C70E477A-7219-409C-A41F-B9831B279627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Businessman", "Businessman\Businessman.csproj", "{08B7CB21-F350-41FA-9328-59E2AD359587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{C70E477A-7219-409C-A41F-B9831B279627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70E477A-7219-409C-A41F-B9831B279627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70E477A-7219-409C-A41F-B9831B279627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B7CB21-F350-41FA-9328-59E2AD359587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B7CB21-F350-41FA-9328-59E2AD359587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B7CB21-F350-41FA-9328-59E2AD359587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B7CB21-F350-41FA-9328-59E2AD359587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
