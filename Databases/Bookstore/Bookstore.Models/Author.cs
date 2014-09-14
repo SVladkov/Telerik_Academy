@@ -20,7 +20,6 @@ namespace Bookstore.Models
 
         public int Id { get; set; }
 
-        //[Index(IsUnique = true)]
         [MaxLength(50)]
         [Required]
         public string Name { get; set; }
